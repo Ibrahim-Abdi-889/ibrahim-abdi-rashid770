@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Ticket - Maandeeq Air</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f7f7f7;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+    }
+
+    .logo img {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #1bae40;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: #1bae40;
+      color: #fff;
+    }
+
+    /* MAIN CONTENT */
+    main {
+      padding: 120px 20px 60px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .ticket-section h2 {
+      margin-bottom: 20px;
+      color: #014e61;
+    }
+
+    .ticket-section form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+      gap: 15px;
+    }
+
+    .ticket-section input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .ticket-section button {
+      padding: 10px;
+      background-color: hwb(195 1% 19%);
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .ticket-section button:hover {
+      background-color: #393ce4fd;
+    }
+
+    /* FOOTER */
+    footer {
+      background: linear-gradient(to right, #3bbf4c, #014e61);
+      color: #fff;
+      padding: 40px 5% 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-column {
+      flex: 1 1 250px;
+      margin-bottom: 20px;
+    }
+
+    .footer-column h4 {
+      color: #c9f9d0;
+      margin-bottom: 10px;
+    }
+
+    .footer-column p {
+      margin: 5px 0;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .social-icons a:hover {
+      color: #00ffff;
+      transform: scale(1.2);
+      transition: 0.3s;
+    }
+
+    .map-image {
+      width: 100%;
+      max-width: 200px;
+      margin-top: 10px;
+    }
+
+    .copyright {
+      background: #1f8db8;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="logo.png" alt="Maandeeq Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Get Ticet.html">Get Ticet</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="our service.html">Our Services</a></li>
+          <li><a href="contect us.html">Contact Us</a></li>
+          <li><a href="agent login.html">Agent Login</a></li>
+          <li><a href="about me .html">about me</a></li>
+          <li><a href="help.html">Help</a></li>
+         
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main>
+    <section class="ticket-section">
+      <h2>GET YOUR TICKET</h2>
+      <form>
+        <input type="text" placeholder="PNR Number" required>
+        <input type="text" placeholder="Last Name" required>
+        <button type="submit">GET TICKET</button>
+      </form>
+    </section>
+  </main>
+
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>MAANDEEQ AIR</h4>
+        <p><strong>Headquarter</strong></p>
+        <p>Mogadishu Airport</p>
+        <p>+252614788888</p>
+        <p>Maandeeq Air</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>OUR LOCATIONS</h4>
+        <p>Where to find us?</p>
+        <p>📍 Somalia</p>
+        <img class="map-image" src="qariirad.png" alt="Map of Somalia">
+      </div>
+
+      <div class="footer-column">
+        <h4>GET IN TOUCH</h4>
+        <p>Our Social links</p>
+        <p>Taking seamless key performance indicators offline to maximise the long tail.</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/maandeeqair" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/maandeeqair" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/maandeeqair"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/company/maandeeqair"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    Copyright © Silicon Reservation System. All rights reserved. | BACK TO TOP | Contact Us
+  </div>
+
+</body>
+</html>
